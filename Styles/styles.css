@@ -1,0 +1,35 @@
+body {
+    font-family:Arial;
+	font-size:10pt;
+}
+
+#drop-zone {
+    position:relative; 
+    margin:0 auto;
+    top:150px;
+    width: 400px;   
+    padding:60px 0 60px 0;    		
+    border-radius:5px;   
+}
+
+p {
+    font-size:1.5em;    
+    text-align:center;
+}
+
+.defaultBorder {
+    border:dashed 2px #3c58c3;
+}
+
+.hoverBorder {
+    background:#3c58c3;		
+    border:dashed 2px #3c58c3;	
+}
+
+.droppedBorder {             
+    border:dashed 2px #A9CCA9;	                	
+}
+
+.errorBorder {             
+    border:dashed 2px #ff0000;	
+}
